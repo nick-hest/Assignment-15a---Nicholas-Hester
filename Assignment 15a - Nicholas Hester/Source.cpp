@@ -1,3 +1,7 @@
+// Nicholas Hester
+// CIS 1202-501
+// December 3, 2022
+
 #include <iostream>
 using namespace std;
 
@@ -8,6 +12,10 @@ char character(char start, int offset);
 
 int main()
 {
+	cout << character('v', 2) << endl;
+	cout << character('M', 23) << endl;
+	cout << character('Z', -20) << endl;
+	cout << character('[', -15) << endl;
 	return 0;
 }
 
